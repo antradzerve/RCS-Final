@@ -1,0 +1,237 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+
+html, body{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: minmax(80px, auto);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.navigbar{
+    min-width: 80px;
+    height: 80px;
+    padding: 0 10px 0 10px;
+    line-height: 80px;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    transition: 0.15s;
+}
+
+.navigbar:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.activenavigation{
+    text-decoration: none;
+    background-color: #ffaa89;
+    color: whitesmoke;
+}
+
+#branding{
+    display: flex;
+    margin: auto 50px auto 50px;
+}
+
+#kot_logo{
+    height: 45px;
+    width: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+h2{
+    margin-top: 50px;
+}
+
+#post-text{
+    margin-bottom: 100px;
+    padding: 0 100px;
+}
+
+#mainpost-img{
+    object-fit: cover;
+    object-position: top center;
+    margin: 40px auto;
+    max-height: 450px;
+}
+
+.betweener{
+    height: 70px;
+    background-color: orangered
+}
+
+.meet{
+    background-color: orangered;
+    font-size: 2rem;
+    padding: 15px auto;
+    margin: 40px auto; 
+}
+
+.blog{
+    margin: 70px auto;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.blog-cont{
+    margin: 70px auto;
+}
+
+.blog-cont a{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: orangered;
+    border: orangered 1px solid;
+    color: whitesmoke;
+    transition: 0.15s;
+}
+
+.blog-cont a:hover{
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.blog-title{
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+#title{
+    margin-bottom: 40px;
+}
+
+#bottomlogo{
+    height: 30px;
+    width: 40px;
+}
+
+.bottomnavbar a{
+    text-decoration: none;
+    color: #444;
+    padding: 10px 20px;
+    margin: 15px 20px;
+    font-weight: 900;
+}
+
+.bottomnavbar{
+    background-color: #ffaa89;
+}
+
+.bottomrow{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.bottomlogo{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+.scrollToTop{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: 200ms ease-in;
+    z-index: 999;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+}
+
+#bottomlogo{
+    height: 30px;
+    width: 40px;
+}
+
+.bottomnavbar a{
+    text-decoration: none;
+    color: #444;
+    padding: 10px 20px;
+    margin: 15px 20px;
+    font-weight: 900;
+}
+
+.bottomnavbar{
+    background-color: #ffaa89;
+}
+
+.bottomrow{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.bottomlogo{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+.card-footer-link{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: orangered;
+    border: orangered 1px solid;
+    color: whitesmoke;
+    transition: 0.15s;
+}
+
+.card-footer-link:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+@media (max-width: 768px) {
+    #post-text{
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 500px) {
+    #post-text{
+        padding: 0 30px;
+    }
+}

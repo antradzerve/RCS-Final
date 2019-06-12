@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+
+html, body{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: minmax(80px, auto);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.navigbar{
+    min-width: 80px;
+    height: 80px;
+    padding: 0 10px 0 10px;
+    line-height: 80px;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    transition: 0.15s;
+}
+
+.navigbar:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.activenavigation{
+    text-decoration: none;
+    background-color: #ffaa89;
+    color: whitesmoke;
+}
+
+#branding{
+    display: flex;
+    margin: auto 50px auto 50px;
+}
+
+#kot_logo{
+    height: 45px;
+    width: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+#showcase-top{
+    text-align: right;
+}
+
+#showcase-top *{
+    margin: 0 50px 0;
+    font-size: 1.2rem;
+}
+
+#showcase-top h1{
+    font-size: 2rem;
+}
+
+#showcase-top{
+    background: whitesmoke url("/img/KOT_cafe/back.jpg") no-repeat center center fixed; 
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.betweener{
+    height: 70px;
+    background-color: orangered
+}
+
+.about-us{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-us div{
+    width: 49%;
+}
+
+.about-text{
+    margin: auto 80px;
+    padding-left: 10px;
+    font-size: 1.2rem;
+}
+
+.about-text h2{
+    text-align: left;
+    font-size: 2.5rem;
+    border-left: orangered 2px solid;
+}
+
+.about-us p{
+    text-align: justify;
+    border-left: orangered 2px solid;
+}
+
+.about-us a{
+    display: block;
+    width: 200px;
+    padding: 10px 30px;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    text-decoration: none;
+    background-color: orangered;
+    border: orangered 1px solid;
+    color: whitesmoke;
+    transition: 0.15s;
+}
+
+.about-us a:hover{
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.about-us img{
+    width: 70%;
+    max-width: 900px;
+    height: auto;
+}
+
+.stats-col img{
+    width: 100%;
+    height: auto;
+}
+
+.stats-col :hover .stats-text{
+    color: orangered;
+    transform: translate(-40%, -50%);
+}
+
+.stats-text{
+    text-decoration: none;
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-weight: bolder;
+    font-size: 2rem;
+    transition: 0.2s;
+}
+
+.blog{
+    margin: 70px auto;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.blog-cont{
+    margin: 70px auto;
+}
+
+/* .blog-cont a{
+    text-decoration: none;
+    border: 1px solid orangered;
+    padding: 10px 30px;
+} */
+
+.blog-cont a{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: orangered;
+    border: orangered 1px solid;
+    color: whitesmoke;
+    transition: 0.15s;
+}
+
+.blog-cont a:hover{
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+.blog-title{
+    font-size: 1.2rem;
+    margin: auto;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    
+    #showcase-top{
+        background: whitesmoke url("/img/KOT_cafe/back.jpg") no-repeat right center fixed; 
+        background-size: cover;
+        height: 300px;
+    }
+
+    .stats-text{
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+    .blog-title{
+        font-size: 0.9rem;
+        display: block;
+        margin: auto 0;
+    }
+
+    .about-text{
+        margin: 20px 10px;
+    }
+
+    .about-text p{
+        font-size: 0.9rem;
+    }
+
+    .about-text h2{
+        font-size: 1.2rem;
+        margin-top: 25px;
+    }
+
+    .about-us{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+    .about-us div{
+        width: 90%;
+    }
+
+    .about-us img{
+        display: none;
+    }
+
+    /* [class*="col-"] {
+      width: 100%;
+    } */
+  }

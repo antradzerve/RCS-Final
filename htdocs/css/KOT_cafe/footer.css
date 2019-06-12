@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+
+html, body{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: minmax(80px, auto);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.navigbar{
+    min-width: 80px;
+    height: 80px;
+    padding: 0 10px 0 10px;
+    line-height: 80px;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    transition: 0.15s;
+}
+
+.navigbar:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.activenavigation{
+    text-decoration: none;
+    background-color: #ffaa89;
+    color: whitesmoke;
+}
+
+#branding{
+    display: flex;
+    margin: auto 50px auto 50px;
+}
+
+#kot_logo{
+    height: 45px;
+    width: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    #large-title{
+        font-size: 1.2rem;
+        text-align: center;
+        align-self: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: minmax(80px, auto);
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .navigbar{
+        width: 100%;
+        height: 40px;
+        padding: 0 10px 0 10px;
+        line-height: 40px;
+        text-decoration: none;
+        border: none;
+        color: inherit;
+        transition: 0.15s;
+    }
+
+    .navigbar:hover{
+        text-decoration: none;
+        background-color: orangered;
+        color: whitesmoke;
+    }
+
+    .activenavigation{
+        text-decoration: none;
+        background-color: #ffaa89;
+        color: whitesmoke;
+    }
+
+    #branding{
+        display: flex;
+        justify-content: center;
+    }
+
+    #kot_logo{
+        height: 45px;
+        width: auto;
+    }
+
+    h1{
+        margin: 0;
+    }
+  }

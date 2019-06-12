@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+
+html, body{
+    box-sizing: border-box;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: minmax(80px, auto);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+#navbutton{
+    display: none;
+}
+
+.navigbar{
+    min-width: 80px;
+    height: 80px;
+    padding: 0 10px 0 10px;
+    line-height: 80px;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    transition: 0.15s;
+}
+
+.navigbar:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.activenavigation{
+    text-decoration: none;
+    background-color: #ffaa89;
+    color: whitesmoke;
+}
+
+#branding{
+    display: flex;
+    margin: auto 50px auto 50px;
+    text-decoration: none;
+    color: black;
+}
+
+#kot_logo{
+    height: 45px;
+    width: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+#bottomlogo{
+    height: 30px;
+    width: 40px;
+}
+
+.bottomnavbar a{
+    text-decoration: none;
+    color: #444;
+    padding: 10px 20px;
+    margin: 15px 20px;
+    font-weight: 900;
+}
+
+.bottomnavbar{
+    background-color: #ffaa89;
+}
+
+.bottomrow{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.bottomlogo{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    
+    /* #navbutton{
+        display: block;
+        width: 100%;
+        height: 40px;
+        padding: 0 10px 0 10px;
+        line-height: 40px;
+        text-decoration: none;
+        border: none;
+        color: orangered;
+        transition: 0.15s;
+    } */
+
+    #large-title{
+        font-size: 1.2rem;
+        text-align: center;
+        align-self: center;
+    }
+
+    header{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: minmax(80px, auto);
+    }
+
+    nav{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        margin: 0;
+    }
+
+    .navigbar{
+        width: 100%;
+        height: 40px;
+        padding: 0 10px 0 10px;
+        line-height: 40px;
+        text-decoration: none;
+        border: none;
+        color: inherit;
+        transition: 0.15s;
+    }
+
+    .navigbar:hover{
+        text-decoration: none;
+        background-color: orangered;
+        color: whitesmoke;
+    }
+
+    .activenavigation{
+        text-decoration: none;
+        background-color: #ffaa89;
+        color: whitesmoke;
+    }
+
+    #branding{
+        display: flex;
+        justify-content: center;
+    }
+
+    #kot_logo{
+        height: 45px;
+        width: auto;
+    }
+
+    h1{
+        margin: 0;
+    }
+
+    .blog-cont{
+        margin: 25px auto;
+    }
+
+    .blog{
+        margin: 25px auto;
+    }
+
+    /* .bottomnavbar{
+        display: flex;
+        flex-direction: column;
+    } */
+
+    .bottomnavbar a{
+        text-decoration: none;
+        color: #444;
+        padding: 0;
+        margin: 5px auto;
+        font-weight: 900;
+    }
+    
+    .bottomrow{
+        margin-top: 20px;
+        font-size: 0.7rem;
+    }
+    
+  }

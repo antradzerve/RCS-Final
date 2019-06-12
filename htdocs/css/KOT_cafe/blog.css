@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Unicase');
+
+html, body{
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Cormorant Unicase', serif; 
+    font-size: 1rem;
+    text-align: center;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    height: minmax(80px, auto);
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 50px 0 50px;
+}
+
+.navigbar{
+    min-width: 80px;
+    height: 80px;
+    padding: 0 10px 0 10px;
+    line-height: 80px;
+    text-decoration: none;
+    border: none;
+    color: inherit;
+    transition: 0.15s;
+}
+
+.navigbar:hover{
+    text-decoration: none;
+    background-color: orangered;
+    color: whitesmoke;
+}
+
+.activenavigation{
+    text-decoration: none;
+    background-color: #ffaa89;
+    color: whitesmoke;
+}
+
+#branding{
+    display: flex;
+    margin: auto 50px auto 50px;
+}
+
+#kot_logo{
+    height: 45px;
+    width: auto;
+}
+
+h1{
+    margin: 0;
+}
+
+.betweener{
+    height: 70px;
+    background-color: orangered
+}
+
+.meet{
+    background-color: orangered;
+    font-size: 2rem;
+    padding: 15px auto;
+    margin: 40px auto; 
+}
+
+.stats-col img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
+
+.stats-col :hover #bpb-textcont{
+    color: #ffaa89;
+    transform: translate(-89%, -50%);
+}
+
+.stats-col #bpb-textcont{
+    text-decoration: none;
+    color: whitesmoke;
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-90%, -50%);
+    font-size: 1rem;
+    transition: 0.2s;
+}
+
+.card{
+    padding: 0;
+}
+
+.card-title{
+    margin: 0;
+}
+
+.card-img-top{
+    width: 100%; 
+    display: block;
+}
+
+.card-footer-link{
+    display: block;
+    padding: 10px 30px;
+    text-decoration: none;
+    background-color: orangered;
+    border: orangered 1px solid;
+    color: whitesmoke;
+    transition: 0.15s;
+}
+
+.card-footer-link:hover{
+    text-decoration: none;
+    background-color: whitesmoke;
+    border: 1px solid orangered;
+    color: orangered;
+}
+
+
+.scrollToTop{
+    width: 50px;
+    height: 50px;
+    background-color: orangered;
+    color: whitesmoke;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: 200ms ease-in;
+    z-index: 999;
+}
+
+.hide {
+    display: none;
+    opacity: 0;
+}
+
+#bottomlogo{
+    height: 30px;
+    width: 40px;
+}
+
+.bottomnavbar a{
+    text-decoration: none;
+    color: #444;
+    padding: 10px 20px;
+    margin: 15px 20px;
+    font-weight: 900;
+}
+
+.bottomnavbar{
+    background-color: #ffaa89;
+}
+
+.bottomrow{
+    margin-top: 20px;
+    font-size: 1.5rem;
+}
+
+.bottomlogo{
+    margin-bottom: 20px;
+}
+
+footer{
+    margin-bottom: 30px;
+}
