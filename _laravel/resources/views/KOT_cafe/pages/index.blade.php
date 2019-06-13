@@ -64,7 +64,7 @@ main.css
             <p>What have we been up to?</p>
         </div>
 
-        <div class="container blog-cont">
+        {{-- <div class="container blog-cont">
             <div class="card-deck">
                 <div class="card">
                     <img class="card-img-top" src="/img/KOT_cafe/blog1.jpg" alt="Card image cap">
@@ -72,7 +72,7 @@ main.css
                         <h5 class="card-title blog-title">Getting ready for UniCon 2019</h5>
                     </div>
                     <div class="card-footer">
-                        <a href="#">Read more</a>
+                        <a href="/blog/1">Read more</a>
                     </div>
                 </div>
                 <div class="card">
@@ -81,7 +81,7 @@ main.css
                         <h5 class="card-title blog-title">Newest addition to our team!</h5>
                     </div>
                     <div class="card-footer">
-                        <a href="#">Read more</a>
+                        <a href="/blog/2">Read more</a>
                     </div>
                 </div>
                 <div class="card">
@@ -90,7 +90,7 @@ main.css
                         <h5 class="card-title blog-title">Top 3 performance list</h5>
                     </div>
                     <div class="card-footer">
-                        <a href="#">Read more</a>
+                        <a href="/blog/3">Read more</a>
                     </div>
                 </div>
                 <div class="card">
@@ -99,9 +99,19 @@ main.css
                         <h5 class="card-title blog-title">What you need to know before your first lesson</h5>
                     </div>
                     <div class="card-footer">
-                        <a href="#">Read more</a>
+                        <a href="/blog/4">Read more</a>
                     </div>
                 </div>
+            </div>
+        </div> --}}
+
+        <div class="container blog-cont">
+            <div class="row my-3">
+
+        @foreach ($posts as $id=>$postItem)
+            @include('KOT_cafe.partials.blog-post')
+        @endforeach
+
             </div>
         </div>
 

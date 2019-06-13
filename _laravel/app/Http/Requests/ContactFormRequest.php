@@ -16,8 +16,8 @@ class ContactFormRequest extends FormRequest
     {
         return [
             'name' => 'required|max: 255',
-            'email' => 'required|email|max: 255|regex:[A-Za-z1-9 @.]',
-            'message' => 'required|regex:[A-Za-z1-9 ]',
+            'email' => 'required|email|max: 255',
+            'message' => 'required',
         ];
     }
 }

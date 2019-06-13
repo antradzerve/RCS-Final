@@ -15,8 +15,13 @@
 
 Route::get('/', function () {
 
+    $allPosts = App\Blogger::all();
+    $sortedPosts = $allPosts->sortByDesc('created_at');
+    $three_latest = $sortedPosts->take(3);
+
     return view('KOT_cafe.pages.index', [
         'activeMenu' => '/',
+        'posts' => $three_latest,
     ]);
 });
 

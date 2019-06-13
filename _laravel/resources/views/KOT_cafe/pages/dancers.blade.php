@@ -46,7 +46,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Johanna Snow</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci
@@ -66,7 +66,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Kathy Post</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci
@@ -85,7 +85,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Sansa Stark</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci
@@ -104,7 +104,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Tom Ford</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci
@@ -124,7 +124,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Harriette Potter</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci
@@ -144,7 +144,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Lila Nona</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci
@@ -163,7 +163,7 @@ dancers.css
                     <div class="col-md-8">
                         <div class="card-body align-items-center d-flex justify-content-center">
                             <div class="card-textblock">
-                                <h3 class="card-title">Betty Beep</h3>
+                                <h3 class="card-title">Bobby Johnson</h3>
                                 <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
                                     libero
                                     facilis, veniam natus quibusdam esse optio dolores nesciunt inventore! Illo adipisci

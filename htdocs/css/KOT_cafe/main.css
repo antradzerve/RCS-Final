@@ -205,14 +205,9 @@ h1{
 @media only screen and (max-width: 768px) {
     
     #showcase-top{
-        background: whitesmoke url("/img/KOT_cafe/back.jpg") no-repeat right center fixed; 
+        background: whitesmoke url("/img/KOT_cafe/back.jpg") no-repeat center center fixed; 
         background-size: cover;
-        height: 300px;
-    }
-
-    .stats-text{
-        font-size: 1.3rem;
-        text-align: center;
+        height: 400px;
     }
 
     .blog-title{
@@ -249,7 +244,36 @@ h1{
         display: none;
     }
 
+    .stats-col img{
+        width: 100%;
+        height: auto;
+    }
+
+    .stats-text{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+
     /* [class*="col-"] {
       width: 100%;
     } */
+  }
+
+  @media (max-width: 500px) {
+
+    #showcase-top{
+        background: whitesmoke url("/img/KOT_cafe/back.jpg") no-repeat right center fixed; 
+        background-size: cover;
+        height: 400px;
+    }
+
+    .stats-col img{
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .stats-text{
+        font-size: 1.5rem;
+        text-align: center;
+    }
   }
